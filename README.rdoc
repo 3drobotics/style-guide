@@ -25,10 +25,6 @@ rake db:migrate
 ```
 rails s
 ```
-### Admin Login
-```
-localhost:3000/meow
-```
 
 ###Environments
 
