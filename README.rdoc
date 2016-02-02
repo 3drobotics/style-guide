@@ -1,28 +1,46 @@
-== README
+# 3DR Style Guide
+### A guide to all 3DR styles on the web.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Features:
+* colors
+* buttons
+* web page partial options
+* typography
+* alerts
+* navigations
+* tbd
 
-Things you may want to cover:
+### Prerequisites
+This app is built on ruby V2.2.3, rails V4.2.5, and requires a postgresql database.
+See instructions [here](https://gorails.com/setup) on how to setup your environment.
 
-* Ruby version
+### Set up
+```
+bundle install
+rake db:create
+rake db:migrate
+```
 
-* System dependencies
+### Local Usage
+```
+rails s
+```
+### Admin Login
+```
+localhost:3000/meow
+```
 
-* Configuration
+###Environments
 
-* Database creation
+[Staging]
+(https://styleguide-3dr-staging.herokuapp.com/)
 
-* Database initialization
+```
+git remote add staging  https://git.heroku.com/styleguide-3dr-staging.git
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+[Production]
+(https://styleguide-3dr.herokuapp.com/)
+```
+git remote add production https://git.heroku.com/styleguide-3dr.git
+```
